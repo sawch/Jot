@@ -1,0 +1,14 @@
+- title: Overview
+  docs:
+  - home
+  - filters
+  - privacy
+  - thanks
+
+- title: Commands
+  docs:
+  - cmds-config
+  - cmds-mod
+  - cmds-automod
+  - cmds-info
+  - cmds-util
