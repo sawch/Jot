@@ -4,7 +4,7 @@ permalink: /docs/filters/
 ---
 <div class="panel panel-info">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Quick Note!</h3>
+		<h3 class="panel-title" id="quicknote">Quick Note!</h3>
 	</div>
 	<div class="panel-body">
     <h6>The auto-mod filters are crafted by the developer and do not allow inputting custom regular expressions or inputs, at least at this time. However every filter <em>is</em> configurable. You can configure the following properties:</h6>
@@ -18,7 +18,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Offensive Words</h3>
+		<h3 class="panel-title" id="offensivewords">Offensive Words</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches some very common offensive/derogatory words and racial slurs. It's fairly robust in the sense that it will match letter and emoji replacements like &#x1f1f3;, arbitrary spaces or repeated letters.
@@ -29,7 +29,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Invite Links</h3>
+		<h3 class="panel-title" id="invitelinks">Invite Links</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches any Discord server invite links, like <a href="{{ site.server_invite }}" target="_blank">{{ site.server_invite }}</a>. (That's the Discord server for the bot!)
@@ -39,7 +39,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Malicious Links</h3>
+		<h3 class="panel-title" id="maliciouslinks">Malicious Links</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches an internally maintained list of links that are encountered by the developer and moderators in the development server by random, usually malicious users. It's not exhaustive, but any new links encountered are added to the bot pretty fast.
@@ -56,7 +56,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Mass Mentions</h3>
+		<h3 class="panel-title" id="massmentions">Mass Mentions</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that mass-ping people like <a class="btn btn-primary btn-xs">@everyone</a> <a class="btn btn-success btn-xs">@Moderators</a> <a class="btn btn-danger btn-xs">@Artists</a> <a class="btn btn-info btn-xs">@Helpers</a>
@@ -66,7 +66,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Emoji Spam</h3>
+		<h3 class="panel-title" id="emojispam">Emoji Spam</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that use an excessive amount of emotes/emojis like <img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote">
@@ -76,7 +76,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Duplicate Spam</h3>
+		<h3 class="panel-title" id="duplicatespam">Duplicate Spam</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that repeat letters or phrases like "omg omg omg omg omg omg omg omg omg omg", "aaaaaaaaaaaaaaaaaaaaaaaaa", or repeated empty lines.
@@ -86,7 +86,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Message Spam</h3>
+		<h3 class="panel-title" id="messagespam">Message Spam</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that are sent in quick succession, like 10 messages with less than 2 seconds between each message.</h6>
@@ -94,7 +94,7 @@ permalink: /docs/filters/
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">Capital Letter Spam</h3>
+		<h3 class="panel-title" id="capsspam">Capital Letter Spam</h3>
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that are at least a reasonable size and consist of roughly >70% capital letters.</h6>
