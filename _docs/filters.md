@@ -32,7 +32,7 @@ permalink: /docs/filters/
 		<h3 class="panel-title" id="warn">Invite Links</h3>
 	</div>
 	<div class="panel-body">
-    <h6>This filter matches any Discord server invite links, like <a href="https://discord.gg/U3Wfuw7CwS" target="_blank">https://discord.gg/U3Wfuw7CwS</a>. (That's the Discord server for the bot!)
+    <h6>This filter matches any Discord server invite links, like <a href="{{ site.server_invite }}" target="_blank">{{ site.server_invite }}</a>. (That's the Discord server for the bot!)
     <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>
@@ -49,7 +49,7 @@ permalink: /docs/filters/
       <li><code>claim.discordofficial.com</code> (That is <em>not</em> official!)</li>
       <li><code>steanncommunity.ru/</code> (We've encountered a ton of these)</li>
     </ul>
-    If your server encounters a spam link you think should be caught, come report it in the <a href="https://discord.gg/U3Wfuw7CwS" target="_blank">Jot Discord server</a>! You should also <a href="https://support.discord.com/hc/en-us/requests/new" target="_blank">report spammers to Discord</a>.
+    If your server encounters a spam link you think should be caught, come report it in the <a href="{{ site.server_invite }}" target="_blank">Jot Discord server</a>! You should also <a href="https://support.discord.com/hc/en-us/requests/new" target="_blank">report spammers to Discord</a>.
     <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>

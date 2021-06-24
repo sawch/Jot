@@ -9,6 +9,7 @@ baseurl: "/jot" # the subpath of your site, e.g. /blog/
 url: https://sawch.github.io/jot # the base hostname & protocol for your site
 git_address: https://github.com/sawch/
 git_edit_address: https://github.com/sawch/jot/blob/gh-pages
+server_invite: https://discord.gg/xmPMufUF9N
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
