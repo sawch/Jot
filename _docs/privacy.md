@@ -44,6 +44,18 @@ permalink: /docs/privacy/
       <td>Manage Channels</td>
       <td><code>!slowmode</code>, modifying channel permissions via <code>!lockdown</code></td>
     </tr>
+    <tr>
+      <td>Manage Threads</td>
+      <td><code>!slowmode</code> (for threads), allows logging messages in private threads</td>
+    </tr>
+    <tr>
+      <td>Public / Private Threads</td>
+      <td>Allows <code>!lockdown</code> to deny making or using threads</td>
+    </tr>
+    <tr>
+      <td>Embed Links</td>
+      <td>Enables the bot to use fancy embed messages (the bot won't function without this)</td>
+    </tr>
   </tbody>
 </table>
 	</div>
