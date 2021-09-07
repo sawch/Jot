@@ -17,6 +17,10 @@ permalink: /docs/cmds-info/
     </thead>
     <tbody>
       <tr>
+        <td>ServerOwner</td>
+        <td>Only the owner of the server can use these commands.</td>
+      </tr>
+      <tr>
         <td>Administrators</td>
         <td>Only users with the <strong>Administrator</strong> or <strong>Manage Server</strong> permission can use these commands.</td>
       </tr>
@@ -33,7 +37,7 @@ permalink: /docs/cmds-info/
 		<h3 class="panel-title" id="note">!note</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Add or remove notes for a user. Actions are <code>add</code> or <code>remove</code>. The <code>note</code> is either your note text, or the number displayed next to a note in the notes for a user.<br/><br/><code>!note &lt;action&gt; &lt;user ID&gt; &lt;note&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Add or remove notes for a user. Actions are <code>add</code> or <code>remove</code>. The <code>note</code> is either your note text, the number displayed next to a note, or <code>all</code> (to delete all notes).<br/><br/><code>!note &lt;action&gt; &lt;user ID&gt; &lt;note&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
@@ -49,7 +53,7 @@ permalink: /docs/cmds-info/
 		<h3 class="panel-title" id="logdelete">!logdelete</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Delete an entry in a user's log of moderation actions. The <code>log #</code> is the number displayed next to moderation actions in the log for a user. <strong>This cannot be undone.</strong><br/><br/><code>!logdelete &lt;user ID&gt; &lt;log #&gt;</code> usable by: <strong>Administrators</strong></h6>
+    <h6>Delete an entry in a user's log of moderation actions. The <code>log #</code> is the number displayed next to moderation actions in the log for a user, specify <code>all</code> to delete all logs for the user. <strong>This cannot be undone.</strong><br/><br/><code>!logdelete &lt;user ID&gt; &lt;log #&gt;</code> usable by: <strong>Administrators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">

@@ -17,6 +17,10 @@ permalink: /docs/cmds-util/
     </thead>
     <tbody>
       <tr>
+        <td>ServerOwner</td>
+        <td>Only the owner of the server can use these commands.</td>
+      </tr>
+      <tr>
         <td>Administrators</td>
         <td>Only users with the <strong>Administrator</strong> or <strong>Manage Server</strong> permission can use these commands.</td>
       </tr>

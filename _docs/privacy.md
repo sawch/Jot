@@ -69,14 +69,17 @@ permalink: /docs/privacy/
     <h6>The following list details what data the bot will store in the database while in your server:<br/></h6>
     <ul>
       <li><h6>The user IDs, user names (e.g Name#0000), reason message and dates associated with moderation actions and notes in the log - the users being: the issuing moderator, the user issued to, and the pardoning moderator (if any)</h6></li>
-      <li><h6>The IDs of the moderation log channel, server log channel, DM relay channel and database backup channel, if any are configured</h6></li>
+      <li><h6>The IDs of the moderation log channel, server log channel and DM relay channel, if any are configured</h6></li>
       <li><h6>The IDs of the muted role and the moderation roles, if any are configured</h6></li>
       <li><h6>The configured settings for the auto-moderation filters (enabled, punishment, punishment duration, patience, threshold and time window)</h6></li>
-      <li><h6>The IDs and permissions of channels visible to the bot, only after using the <code>!lockdown</code> command - this data is then deleted upon <code>!lockdown end</code></h6></li>
+      <li><h6>The IDs and permissions of channels visible to the bot, only after using the <code>!lockdown start</code> command - this data is then deleted upon <code>!lockdown end</code></h6></li>
+      <li><h6>The IDs of linked servers, if any are configured</h6></li>
     </ul>
     <h6>The bot also maintains a separate, single 'global' database which contains the following:<br/></h6>
     <ul>
-      <li><h6>The user ID, guild ID, remaining uses and creation date of DM relays created when moderation actions occur in a server with the DM relay channel configured</h6></li>
+      <li><h6>The user ID, server ID, remaining uses and creation date of DM relays created when moderation actions occur in a server with the DM relay channel configured</h6></li>
+      <li><h6>The Patreon and Discord user IDs, expiration dates and upgrade token amounts of users who donate and connect their Discord and Patreon accounts either through Patreon itself or by request</h6></li>
+      <li><h6>The server ID, server name and the token owner's Discord user ID for each upgrade token that is currently applied to a server</h6></li>
       <li><h6>Various configuration variables which are not generated from or related to any specific servers</h6></li>
     </ul>
     <h6>The bot does not store message history on disk - it keeps a cache of the latest messages in each channel it can see, the cache is lost whenever the bot is shut down. You can view the database schema <a href="/jot/assets/database_schema.pdf">here</a> which shows how the database for each server is structured.</h6>
