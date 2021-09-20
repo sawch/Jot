@@ -49,8 +49,7 @@ permalink: /docs/filters/
       <li><code>claim.discordofficial.com</code> (That is <em>not</em> official!)</li>
       <li><code>steanncommunity.ru/</code> (We've encountered a ton of these)</li>
     </ul>
-    If your server encounters a spam link you think should be caught, come report it in the <a href="{{ site.server_invite }}" target="_blank">Jot Discord server</a>! You should also <a href="https://support.discord.com/hc/en-us/requests/new" target="_blank">report spammers to Discord</a>.
-    <br/><br/><span class="label label-danger">Messages deleted when caught</span>
+    <br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>
 </div>
@@ -98,5 +97,15 @@ permalink: /docs/filters/
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that are at least a reasonable size and consist of roughly >70% capital letters.</h6>
+	</div>
+</div>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title" id="scamdetection">Scam Detection</h3>
+	</div>
+	<div class="panel-body">
+    <h6><strong>Experimental</strong>: This filter attempts to detect scam bots/compromised accounts that send malicious scam links. It's marked as experimental as it may have false positives and will likely need refinement.
+    <br/><br/><span class="label label-danger">Messages deleted when caught</span>
+    </h6>
 	</div>
 </div>

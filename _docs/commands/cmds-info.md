@@ -77,7 +77,7 @@ permalink: /docs/cmds-info/
 		<h3 class="panel-title" id="timers">!timers</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Displays the active timers for temporary bans and mutes, if any. type is optional, specify <code>mutes</code> or <code>bans</code> to only show the desired timers.<br/><br/><code>!timers &lt;type&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Displays the active timers for temporary bans and mutes, if any. <code>type</code> is optional, specify <code>mutes</code> or <code>bans</code> to only show the desired timers.<br/><br/><code>!timers &lt;type&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">

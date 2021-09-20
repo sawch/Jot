@@ -9,6 +9,5 @@
   docs:
   - cmds-config
   - cmds-mod
-  - cmds-automod
   - cmds-info
   - cmds-util
