@@ -105,7 +105,7 @@ description: An overview of the various auto-moderation filters implemented in t
 		<h3 class="panel-title" id="scamdetection">Scam Detection</h3>
 	</div>
 	<div class="panel-body">
-    <h6><strong>Experimental</strong>: This filter attempts to detect scam bots/compromised accounts that send malicious scam links. It's marked as experimental as it may have false positives and will likely need refinement.
+    <h6><strong>Experimental</strong>: This filter attempts to detect scam bots/compromised accounts that send malicious links like “free nitro giveaway! fakewebsite.com.xyz/nitro” in your server. It's marked as experimental as it may have false positives and will likely need refinement.
     <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>
