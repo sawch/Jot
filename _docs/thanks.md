@@ -1,6 +1,8 @@
 ---
 title: Thanks
 permalink: /docs/thanks/
+image: /assets/img/logo_heart.png
+description: A list of all the things that have contributed to the existence of the Jot!
 ---
 <div class="panel panel-primary">
 	<div class="panel-heading">

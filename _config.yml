@@ -1,12 +1,14 @@
 # Site settings
 title: Jot
-email: your-email@domain.com
+logo: /assets/img/logo_256.png
+tagline: A Discord Moderation Bot
 description: >
-  A Discord Moderation Bot
+ A bot with a primary focus on moderation tools: Issue warnings, mutes, kicks and bans with an auto-mod, logging and more. Developed and tested alongside moderating a server with 30,000+ members.
 lang: en-US
+theme_color: rgb(88,101,242)
 
 baseurl: "/jot" # the subpath of your site, e.g. /blog/
-url: https://sawch.github.io/jot # the base hostname & protocol for your site
+url: https://sawch.github.io # the base hostname & protocol for your site
 git_address: https://github.com/sawch/
 git_edit_address: https://github.com/sawch/jot/blob/gh-pages
 server_invite: https://discord.gg/xmPMufUF9N

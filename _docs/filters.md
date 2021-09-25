@@ -1,6 +1,8 @@
 ---
 title: Auto-Moderation Filters
 permalink: /docs/filters/
+image: /assets/img/logo_256.png
+description: An overview of the various auto-moderation filters implemented in the Jot.
 ---
 <div class="panel panel-info">
 	<div class="panel-heading">

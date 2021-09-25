@@ -1,6 +1,8 @@
 ---
 title: Information Commands
 permalink: /docs/cmds-info/
+image: /assets/img/logo_256.png
+description: A list of the information commands found in the Jot.
 ---
 <div class="panel panel-info">
 	<div class="panel-heading">

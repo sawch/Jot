@@ -2,6 +2,7 @@
 title: Features
 permalink: /docs/home/
 redirect_from: /docs/index.html
+image: /assets/img/logo_256.png
 ---
 <div class="panel panel-primary">
 	<div class="panel-heading">

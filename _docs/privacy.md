@@ -1,6 +1,8 @@
 ---
 title: Permissions and Privacy
 permalink: /docs/privacy/
+image: /assets/img/logo_256.png
+description: An overview of the permissions and information used and stored by the Jot.
 ---
 <div class="panel panel-primary">
 	<div class="panel-heading">
