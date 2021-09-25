@@ -1,7 +1,6 @@
 ---
 title: Utility Commands
 permalink: /docs/cmds-util/
-image: /assets/img/logo_256.png
 description: A list of the utility commands found in the Jot.
 ---
 <div class="panel panel-info">

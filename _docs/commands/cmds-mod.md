@@ -1,7 +1,6 @@
 ---
 title: Moderation Commands
 permalink: /docs/cmds-mod/
-image: /assets/img/logo_256.png
 description: A list of the moderation commands found in the Jot.
 ---
 <div class="panel panel-info">

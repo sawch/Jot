@@ -5,7 +5,6 @@ tagline: A Discord Moderation Bot
 description: >
  A bot with a primary focus on moderation tools: Issue warnings, mutes, kicks and bans with an auto-mod, logging and more. Developed and tested alongside moderating a server with 30,000+ members.
 lang: en-US
-theme_color: rgb(88,101,242)
 
 baseurl: "/jot" # the subpath of your site, e.g. /blog/
 url: https://sawch.github.io # the base hostname & protocol for your site
