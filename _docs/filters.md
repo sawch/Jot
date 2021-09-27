@@ -44,13 +44,8 @@ description: An overview of the various auto-moderation filters implemented in t
 	</div>
 	<div class="panel-body">
     <h6>This filter matches an internally maintained list of links that are encountered by the developer and moderators in the development server by random, usually malicious users. It's not exhaustive, but any new links encountered are added to the bot pretty fast.
-    <br/><br/>It includes links like IP grabbers, redirects into <em><strong>fullscreen are you sure you want to leave this page max volume jump scare</strong></em> and misleading links like:
-    <br/><br/>
-    <ul>
-      <li><code>claim.discordofficial.com</code> (That is <em>not</em> official!)</li>
-      <li><code>steanncommunity.ru/</code> (We've encountered a ton of these)</li>
-    </ul>
-    <br/><span class="label label-danger">Messages deleted when caught</span>
+    <br/><br/>It includes links like IP grabbers, redirects into <em><strong>fullscreen are you sure you want to leave this page max volume jump scare</strong></em> and phishing (scam) links that are slight misspellings of official websites like Steam or Discord.
+    <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>
 </div>
@@ -69,7 +64,7 @@ description: An overview of the various auto-moderation filters implemented in t
 		<h3 class="panel-title" id="emojispam">Emoji Spam</h3>
 	</div>
 	<div class="panel-body">
-    <h6>This filter matches messages that use an excessive amount of emotes/emojis like <img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote"><img style="display:inline" src="/jot/assets/img/partycat3.gif" alt="Emote">
+    <h6>This filter matches messages that use an excessive amount of emotes/emojis like <img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote"><img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote"><img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote"><img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote"><img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote"><img style="display:inline" src="/jot/assets/img/fire.png" alt="Emote">
     <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>
@@ -105,7 +100,7 @@ description: An overview of the various auto-moderation filters implemented in t
 		<h3 class="panel-title" id="scamdetection">Scam Detection</h3>
 	</div>
 	<div class="panel-body">
-    <h6><strong>Experimental</strong>: This filter attempts to detect scam bots/compromised accounts that send malicious links like “free nitro giveaway! fakewebsite.com.xyz/nitro” in your server. It's marked as experimental as it may have false positives and will likely need refinement.
+    <h6><strong>Experimental</strong>: This filter attempts to detect scam bots/compromised accounts that send malicious links like “free nitro giveaway! &lt;insert scam website here&gt;” in your server. It's marked as experimental as it may have false positives and will likely need refinement.
     <br/><br/><span class="label label-danger">Messages deleted when caught</span>
     </h6>
 	</div>

@@ -83,7 +83,7 @@ description: A list of the moderation commands found in the Jot.
 		<h3 class="panel-title" id="unban">!unban</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Unbans a user with the given ID.<br/><br/><code>!unban &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Unbans the given user.<br/><br/><code>!unban &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">

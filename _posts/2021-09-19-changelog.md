@@ -6,7 +6,7 @@ author: Josh
 ---
 **Auto-Moderation:**
 - A new command, **!automod**, has replaced all of the existing auto-mod commands and allows you to fully customize all the filters with fancy buttons and dropdown boxes.
-- An experimental scam detection auto-mod filter has been added - it's purpose is to detect scam bots or compromised accounts who spam your server with messages like "free nitro giveaway! fakewebsite.com.xyz/nitro". It's disabled by default but if your server encounters these bots, you can give this filter a try.
+- An experimental scam detection auto-mod filter has been added - it's purpose is to detect scam bots or compromised accounts who spam your server with messages like "free nitro giveaway! &lt;insert scam website here&gt;". It's disabled by default but if your server encounters these bots, you can give this filter a try.
 
 **Miscellaneous:**
 - Added years to the accepted letters for duration formats (the letter `y`)
