@@ -91,7 +91,7 @@ description: A list of the moderation commands found in the Jot.
 		<h3 class="panel-title" id="detain">!detain</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Silently gives a user the muted role which persists if users leave and rejoin, giving you time to type up a punishment command such as a mute or ban. Users are automatically un-detained upon warning, muting, kicking or banning.<br/><br/><code>!detain &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Silently gives a user the muted role which persists if they leave and rejoin the server, giving you time to type up a punishment command such as a mute or ban. Users are automatically un-detained upon warning, muting, kicking or banning.<br/><br/><code>!detain &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
@@ -131,6 +131,6 @@ description: A list of the moderation commands found in the Jot.
 		<h3 class="panel-title" id="lockdown">!lockdown</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Locks down public channels, for use during a raid situation. The bot will deny permission for roles below the lowest moderator role to send messages or connect to voice in any channels they can view (excluding Administrator and bot integration roles). Specify <code>start</code> or <code>end</code> after the command to start or stop the lockdown.<br/><br/><code>!lockdown &lt;start/end&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Locks down public channels, for use during a raid situation. The bot will deny permission for everyone below the lowest moderator role to send messages, add reactions or connect to voice in any channels they can view. Permissions are restored to their original state afterwards. Specify <code>start</code> or <code>end</code> to start or stop the lockdown.<br/><br/><code>!lockdown &lt;start/end&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>

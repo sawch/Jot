@@ -43,10 +43,18 @@ description: A list of the utility commands found in the Jot.
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
+		<h3 class="panel-title" id="gettime">!gettime</h3>
+	</div>
+	<div class="panel-body">
+    <h6>Generate timestamps that you can copy and paste to show dates and times that are displayed in the local time of whoever sees it, such as <code>in 5 minutes</code> or <code>in a year</code>. Duration is optional. Duration format examples: <code>1h30m</code>, <code>-1d</code>, <code>3d</code>, <code>1w</code>.<br/><br/><code>!gettime &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
+	</div>
+</div>
+<div class="panel panel-primary">
+	<div class="panel-heading">
 		<h3 class="panel-title" id="ping">!ping</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Reports the bot's latency, memory usage and uptime.<br/><br/><code>!ping</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Check if the bot is alive.<br/><br/><code>!ping</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
@@ -55,11 +63,10 @@ description: A list of the utility commands found in the Jot.
 	</div>
 	<div class="panel-body">
     <h6>Lists the commands available to you. The following categories are available:<br/><br/>
-        <code>configuration</code>, <code>config</code><br/>
-        <code>moderation</code>, <code>mod</code><br/>
-        <code>automoderation</code>, <code>automod</code><br/>
-        <code>information</code>, <code>info</code><br/>
-        <code>utility</code>, <code>util</code><br/>
+        <code>config</code><br/>
+        <code>mod</code><br/>
+        <code>info</code><br/>
+        <code>util</code><br/>
         <br/><br/><code>!help &lt;category&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 	<div class="panel-footer"><h6>The help command contains all the information regarding commands that you're reading here!</h6></div>
