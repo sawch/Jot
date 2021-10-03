@@ -46,7 +46,7 @@ description: A list of the utility commands found in the Jot.
 		<h3 class="panel-title" id="gettime">!gettime</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Generate timestamps that you can copy and paste to show dates and times that are displayed in the local time of whoever sees it, such as <code>in 5 minutes</code> or <code>in a year</code>. Duration is optional. Duration format examples: <code>1h30m</code>, <code>-1d</code>, <code>3d</code>, <code>1w</code>.<br/><br/><code>!gettime &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Generate timestamps that you can copy and paste to show dates and times that are displayed in the local time of whoever sees it, such as <code>in 5 minutes</code> or <code>in a year</code>. Duration is optional and can be preceded by a <code>-</code> to get a time in the past. Duration format examples: <code>1h30m</code>, <code>-1d</code>, <code>3d</code>, <code>1w</code>.<br/><br/><code>!gettime &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
