@@ -27,7 +27,7 @@ description: An overview of the permissions and information used and stored by t
     </tr>
     <tr>
       <td>Manage Roles</td>
-      <td>Assigning muted role via <code>!mute</code> & <code>!detain</code>, creating a new muted role inside the <code>!setup</code> procedure</td>
+      <td>Assigning muted role via <code>!mute</code> & <code>!detain</code>, modifying channel permissions via <code>!lockdown</code>, creating a new muted role inside the <code>!setup</code> procedure</td>
     </tr>
     <tr>
       <td>Manage Messages</td>
@@ -43,11 +43,11 @@ description: An overview of the permissions and information used and stored by t
     </tr>
     <tr>
       <td>Manage Channels</td>
-      <td><code>!slowmode</code>, modifying channel permissions via <code>!lockdown</code></td>
+      <td><code>!slowmode</code> for text channels</td>
     </tr>
     <tr>
       <td>Manage Threads</td>
-      <td><code>!slowmode</code> (for threads), allows logging messages in private threads</td>
+      <td><code>!slowmode</code> for threads, allows logging messages in private threads</td>
     </tr>
     <tr>
       <td>Public / Private Threads</td>
