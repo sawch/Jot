@@ -75,7 +75,7 @@ description: An overview of the various auto-moderation filters implemented in t
 	</div>
 	<div class="panel-body">
     <h6>This filter matches messages that repeat letters or phrases like "omg omg omg omg omg omg omg omg omg omg", "aaaaaaaaaaaaaaaaaaaaaaaaa", or repeated empty lines.
-    <br/><br/><span class="label label-primary">Messages only deleted when repeating empty lines</span>
+    <br/><br/><span class="label label-primary">Large messages deleted when caught</span>
     </h6>
 	</div>
 </div>

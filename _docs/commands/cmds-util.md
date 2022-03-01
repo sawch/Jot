@@ -35,39 +35,33 @@ description: A list of the utility commands found in the Jot.
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="slowmode">!slowmode</h3>
+		<h3 class="panel-title" id="slowmode">/slowmode</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Sets the slowmode value on the specified channel (maximum 6 hours). Specify <code>off</code> or <code>0s</code> as the duration to disable slowmode. Duration format examples: <code>5s</code>, <code>10m</code>, <code>2h</code>.<br/><br/><code>!slowmode &lt;channel&gt; &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Set the slowmode value on a channel or thread.<br/><br/><code>/slowmode &lt;channel&gt; &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="gettime">!gettime</h3>
+		<h3 class="panel-title" id="gettime">/gettime</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Generate timestamps that you can copy and paste to show dates and times that are displayed in the local time of whoever sees it, such as <code>in 5 minutes</code> or <code>in a year</code>. Duration is optional and can be preceded by a <code>-</code> to get a time in the past. Duration format examples: <code>1h30m</code>, <code>-1d</code>, <code>3d</code>, <code>1w</code>.<br/><br/><code>!gettime &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Generate timestamps displayed in the viewer's local time.<br/><br/><code>/gettime &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="ping">!ping</h3>
+		<h3 class="panel-title" id="ping">/ping</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Check if the bot is alive.<br/><br/><code>!ping</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Check if the bot is alive.<br/><br/><code>/ping</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="help">!help</h3>
+		<h3 class="panel-title" id="help">/help</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Lists the commands available to you. The following categories are available:<br/><br/>
-        <code>config</code><br/>
-        <code>mod</code><br/>
-        <code>info</code><br/>
-        <code>util</code><br/>
-        <br/><br/><code>!help &lt;category&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Get information on setting up and using the bot.<br/><br/><code>/help</code> usable by: <strong>Moderators</strong></h6>
 	</div>
-	<div class="panel-footer"><h6>The help command contains all the information regarding commands that you're reading here!</h6></div>
 </div>

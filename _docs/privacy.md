@@ -18,40 +18,40 @@ description: An overview of the permissions and information used and stored by t
   </thead>
   <tbody>
     <tr>
+      <td>Timeout Members</td>
+      <td><code>/timeout</code>, auto-mod timeout punishment</td>
+    </tr>
+    <tr>
       <td>Kick Members</td>
-      <td><code>!kick</code>, auto-mod kick punishment</td>
+      <td><code>/kick</code>, auto-mod kick punishment</td>
     </tr>
     <tr>
       <td>Ban Members</td>
-      <td><code>!ban</code>, auto-mod ban punishment</td>
+      <td><code>/ban</code>, auto-mod ban punishment</td>
     </tr>
     <tr>
       <td>Manage Roles</td>
-      <td>Assigning muted role via <code>!mute</code> & <code>!detain</code>, modifying channel permissions via <code>!lockdown</code>, creating a new muted role inside the <code>!setup</code> procedure</td>
+      <td>Assigning roles via button roles, modifying channel permissions via <code>/lockdown</code></td>
     </tr>
     <tr>
       <td>Manage Messages</td>
-      <td>Deleting commands and errors, bulk-deleting from channels via <code>!purgesince</code>, allows bot to bypass slowmode</td>
+      <td>Auto-mod deleting caught messages, bulk-deleting messages in channels via <code>Purge messages since</code></td>
     </tr>
     <tr>
       <td>Read Message History</td>
-      <td>Fetching the collection of messages to bulk-delete via <code>!purgesince</code></td>
-    </tr>
-    <tr>
-      <td>Voice Channels - Move Members</td>
-      <td>Disconnecting users from voice channels via <code>!mute</code> & <code>!detain</code></td>
+      <td>Fetching the collection of messages to bulk-delete via <code>Purge messages since</code></td>
     </tr>
     <tr>
       <td>Manage Channels</td>
-      <td><code>!slowmode</code> for text channels</td>
+      <td><code>/slowmode</code> for text channels</td>
     </tr>
     <tr>
       <td>Manage Threads</td>
-      <td><code>!slowmode</code> for threads, allows logging messages in private threads</td>
+      <td><code>/slowmode</code> for threads, allows logging messages in private threads</td>
     </tr>
     <tr>
-      <td>Public / Private Threads</td>
-      <td>Allows <code>!lockdown</code> to deny making or using threads</td>
+      <td>Create Public / Private Threads</td>
+      <td>Allows <code>/lockdown</code> to deny users from creating or talking in threads</td>
     </tr>
     <tr>
       <td>Embed Links</td>
@@ -78,7 +78,7 @@ description: An overview of the permissions and information used and stored by t
       <li><h6>The IDs of the moderation log channel, server log channel and DM relay channel, if any are configured</h6></li>
       <li><h6>The IDs of the muted role and the moderation roles, if any are configured</h6></li>
       <li><h6>The configured settings for the auto-moderation filters (enabled, punishment, punishment duration, patience, threshold and time window)</h6></li>
-      <li><h6>The IDs and permissions of channels visible to the bot, only after using the <code>!lockdown start</code> command - this data is then deleted upon <code>!lockdown end</code></h6></li>
+      <li><h6>The IDs and permissions of channels visible to the bot, only after using the <code>/lockdown start</code> command - this data is then deleted upon <code>/lockdown end</code></h6></li>
       <li><h6>The IDs of linked servers, if any are configured</h6></li>
     </ul>
     <h6>The bot also maintains a separate, single 'global' database which contains the following:<br/></h6>

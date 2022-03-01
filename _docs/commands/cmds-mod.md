@@ -35,102 +35,65 @@ description: A list of the moderation commands found in the Jot.
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="warn">!warn</h3>
+		<h3 class="panel-title" id="warn">/warn</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Warn a user. Warns are logged and the user is notified via DM.<br/><br/><code>!warn &lt;user ID&gt; &lt;warn message&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Warn a user (user is notified via DM).<br/><br/><code>/warn &lt;user&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="mute">!mute</h3>
+		<h3 class="panel-title" id="timeout">/timeout</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Gives a user the muted role for the specified duration of time, with an optional reason. User is notified via DM. Re-muting an already muted user changes the duration. Duration format examples: <code>1h30m</code>, <code>24h</code>, <code>3d</code>, <code>1w</code>.<br/><br/><code>!mute &lt;user ID&gt; &lt;duration&gt; &lt;reason&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Timeout a user for a certain amount of time (user is notified via DM).<br/><br/><code>/timeout &lt;user&gt; &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="unmute">!unmute</h3>
+		<h3 class="panel-title" id="untimeout">/untimeout</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Unmutes the given user.<br/><br/><code>!unmute &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Remove a timeout from a user.<br/><br/><code>/untimeout &lt;user&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="kick">!kick</h3>
+		<h3 class="panel-title" id="kick">/kick</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Kicks a user from the server. Reason is optional. User is notified via DM.<br/><br/><code>!kick &lt;user ID&gt; &lt;reason&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Kick a user from the server (user is notified via DM).<br/><br/><code>/kick &lt;user&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="ban">!ban</h3>
+		<h3 class="panel-title" id="ban">/ban</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Bans a user from the server. Both duration and reason are optional. User is notified via DM. Banning an already banned user will change the duration.<br/>
-        Duration format examples: <code>1h30m</code>, <code>24h</code>, <code>3d</code>, <code>1w</code>.<br/>
-        Full examples:<br/><br/>
-        <code>ban 123456789 24h Rule #1</code> <em>(temporary + reason)</em><br/>
-        <code>ban 123456789 Too many warnings.</code> <em>(permanent + reason)</em><br/>
-        <code>ban 123456789</code> <em>(permanent)</em><br/><br/><code>!ban &lt;user ID&gt; &lt;duration&gt; &lt;reason&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Ban a user from the server (user is notified via DM).<br/><br/><code>/ban &lt;user&gt; &lt;duration&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="unban">!unban</h3>
+		<h3 class="panel-title" id="unban">/unban</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Unbans the given user.<br/><br/><code>!unban &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Unban a user.<br/><br/><code>/unban &lt;user&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="detain">!detain</h3>
+		<h3 class="panel-title" id="reply">/reply</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Silently gives a user the muted role which persists if they leave and rejoin the server, giving you time to type up a punishment command such as a mute or ban. Users are automatically un-detained upon warning, muting, kicking or banning.<br/><br/><code>!detain &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Reply to a user who has responded to a moderation action via a DM relay.<br/><br/><code>/reply &lt;user&gt; &lt;message&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="detainees">!detainees</h3>
+		<h3 class="panel-title" id="lockdown">/lockdown</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Displays the list of detained users.<br/><br/><code>!detainees</code> usable by: <strong>Moderators</strong></h6>
-	</div>
-</div>
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title" id="undetain">!undetain</h3>
-	</div>
-	<div class="panel-body">
-    <h6>Un-detains a user, removing the muted role from them.<br/><br/><code>!undetain &lt;user ID&gt;</code> usable by: <strong>Moderators</strong></h6>
-	</div>
-</div>
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title" id="reply">!reply</h3>
-	</div>
-	<div class="panel-body">
-    <h6>Reply to users who have responded to a moderation action via a DM relay.<br/><br/><code>!reply &lt;user ID&gt; &lt;message&gt;</code> usable by: <strong>Moderators</strong></h6>
-	</div>
-</div>
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title" id="purgesince">!purgesince</h3>
-	</div>
-	<div class="panel-body">
-    <h6>Deletes all messages in a channel that were sent after the linked message, including the linked message (max 100).<br/><br/><code>!purgesince &lt;message link&gt;</code> usable by: <strong>Moderators</strong></h6>
-	</div>
-</div>
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title" id="lockdown">!lockdown</h3>
-	</div>
-	<div class="panel-body">
-    <h6>Locks down public channels, for use during a raid situation. The bot will deny permission for everyone below the lowest moderator role to send messages, add reactions or connect to voice in any channels they can view. Permissions are restored to their original state afterwards. Specify <code>start</code> or <code>end</code> to start or stop the lockdown.<br/><br/><code>!lockdown &lt;start/end&gt;</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Lock down public channels to help mitigate a raid.<br/><br/><code>/lockdown &lt;start/end&gt;</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>

@@ -35,41 +35,49 @@ description: A list of the configuration commands found in the Jot.
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="setup">!setup</h3>
+		<h3 class="panel-title" id="setup">/setup</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Runs a setup process where the bot will guide you through configuration. You can run this again at any point to change any settings.<br/><br/><code>!setup</code> usable by: <strong>Administrators</strong></h6>
+    <h6>Run a setup process where the bot will guide you through configuration. You can run this again at any point to change any settings.<br/><br/><code>/setup</code> usable by: <strong>Administrators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="automod">!automod</h3>
+		<h3 class="panel-title" id="automod">/automod</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Displays and configures auto-moderation settings.<br/><br/><code>!automod</code> usable by: <strong>Administrators</strong></h6>
+    <h6>Display and configure auto-moderation settings.<br/><br/><code>/automod</code> usable by: <strong>Administrators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="prefix">!upgrade</h3>
+		<h3 class="panel-title" id="reasonpresets">/reasonpresets</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Manages upgrade tokens, used to unlock special features.<br/><br/><code>!upgrade</code> usable by: <strong>Moderators</strong></h6>
+    <h6>Manage preset reason messages for moderation actions.<br/><br/><code>/reasonpresets</code> usable by: <strong>Administrators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="prefix">!buttonroles</h3>
+		<h3 class="panel-title" id="upgrade">/upgrade</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Create, modify and delete button roles. Button roles use buttons attached to messages that grant roles to users when they click on them, like reaction roles.<br/><br/><code>!buttonroles</code> usable by: <strong>Administrators</strong></h6>
+    <h6>Manage upgrade tokens, used to unlock special features.<br/><br/><code>/upgrade</code> usable by: <strong>Moderators</strong></h6>
 	</div>
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="prefix">!serverlink</h3>
+		<h3 class="panel-title" id="buttonroles">/buttonroles</h3>
 	</div>
 	<div class="panel-body">
-    <h6>Manages linking servers together to share moderation logs and issue mutes, kicks and bans across multiple servers.<br/><br/><code>!serverlink</code> usable by: <strong>ServerOwner</strong></h6>
+    <h6>Create, modify and delete button roles. Button roles use buttons attached to messages that grant roles to users when they click on them, like reaction roles.<br/><br/><code>/buttonroles</code> usable by: <strong>Administrators</strong></h6>
+	</div>
+</div>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title" id="serverlink">/serverlink</h3>
+	</div>
+	<div class="panel-body">
+    <h6>Manage linking servers together to share moderation logs and issue timeouts, kicks and bans across multiple servers.<br/><br/><code>/serverlink</code> usable by: <strong>ServerOwner</strong></h6>
 	</div>
 </div>
