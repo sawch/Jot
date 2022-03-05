@@ -27,7 +27,7 @@ description: The terms of service for the Jot.
 </div>
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title" id="definitions">Summary</h3>
+        <h3 class="panel-title" id="summary">Summary</h3>
     </div>
     <div class="panel-body">
     <h6>Here's a quick, non-exhaustive summary of these terms, to give you a general idea:</h6>
@@ -43,7 +43,7 @@ description: The terms of service for the Jot.
 </div>
 <div class="panel panel-primary">
 	<div class="panel-heading">
-		<h3 class="panel-title" id="privacy">Terms of Service</h3>
+		<h3 class="panel-title" id="terms">Terms of Service</h3>
 	</div>
 	<div class="panel-body">
     <h6><strong>Acknowledgement</strong></h6>
