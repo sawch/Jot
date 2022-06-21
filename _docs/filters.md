@@ -10,7 +10,7 @@ description: An overview of the various auto-moderation filters implemented in t
 	<div class="panel-body">
     <h6>The auto-mod filters are crafted by the developer and do not allow inputting custom regular expressions or inputs, at least at this time. However every filter <em>is</em> configurable. You can configure the following properties:</h6>
     <ul>
-        <li><h6>Punishments (nothing, mute, kick or ban)</h6></li>
+        <li><h6>Punishments (nothing, timeout, kick or ban)</h6></li>
         <li><h6>Patience (amount of verbal warnings before punishment, if any)</h6></li>
         <li><h6>Time windows (for time-based filters: how many seconds between messages, etc.)</h6></li>
         <li><h6>Thresholds (how many emojis, duplicate letters, etc. are considered spam)</h6></li>

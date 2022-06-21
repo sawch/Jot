@@ -3,7 +3,7 @@ title: Jot
 logo: /assets/img/logo_256.png
 tagline: A Discord Moderation Bot
 description: >
- A bot with a primary focus on moderation tools: Issue warnings, mutes, kicks and bans with an auto-mod, logging and more. Developed and tested alongside moderating a server with 30,000+ members.
+ A bot with a primary focus on moderation tools: Issue warnings, timeouts, kicks and bans with an auto-mod, logging and more. Developed and tested alongside moderating a server with 30,000+ members.
 lang: en-US
 
 baseurl: "/jot" # the subpath of your site, e.g. /blog/
